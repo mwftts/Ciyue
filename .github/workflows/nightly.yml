@@ -45,7 +45,7 @@ jobs:
       artifact_name: APK
       enable_build_cache: true
       enable_gradle_cache: true
-      signing_required: true
+      signing_required: false
 
   build-android-full:
     needs: check-activity
@@ -59,7 +59,7 @@ jobs:
       artifact_name: APK-FULL
       enable_build_cache: true
       enable_gradle_cache: true
-      signing_required: true
+      signing_required: false
 
   build-windows:
     needs: check-activity
