@@ -39,8 +39,8 @@ dependencies:
   drift_flutter: ^0.3.0
   dict_reader:
     git:
-      url: https://github.com/mumu-lhl/dict_reader.git
-      ref: af687fb3c30f36d3e7679b0eeb6c2b993c5300a8
+      url: https://github.com/mwftts/dict_reader.git
+      ref: ace4a7434bb2fff930fd29ac6e24cba2651fe4a3
   shared_preferences: ^2.5.5
   go_router: ^17.3.0
   flutter_inappwebview: 6.2.0-beta.3
