@@ -109,7 +109,7 @@ class LegacyImport extends StatelessWidget {
           return;
         }
 
-        final content = (await xFile.readAsString()).split("\n"),
+        final content = (await xFile.readAsString(encoding: utf8)).split("\n"),
             wordsJson = jsonDecode(content[0]),
             tagsJson = jsonDecode(content[1]);
 

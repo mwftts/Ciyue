@@ -42,7 +42,7 @@ class DefaultBackupFileHandler implements BackupFileHandler {
   @override
   Future<void> writeAutoExportDesktop(String path, String content) async {
     final file = File(join(path));
-    await file.writeAsString(content);
+    await file.writeAsString(content, encoding: utf8);
   }
 
   @override
@@ -55,7 +55,7 @@ class DefaultBackupFileHandler implements BackupFileHandler {
     final result = await getSaveLocation(suggestedName: "ciyue.json");
     if (result != null) {
       final file = File(result.path);
-      await file.writeAsString(content);
+      await file.writeAsString(content, encoding: utf8);
     }
   }
 
@@ -69,7 +69,7 @@ class DefaultBackupFileHandler implements BackupFileHandler {
     if (xFile == null) {
       return null;
     }
-    return await xFile.readAsString();
+    return await xFile.readAsString(encoding: utf8);
   }
 }
 

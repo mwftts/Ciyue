@@ -317,9 +317,9 @@ packages:
     dependency: "direct main"
     description:
       path: "."
-      ref: af687fb3c30f36d3e7679b0eeb6c2b993c5300a8
-      resolved-ref: af687fb3c30f36d3e7679b0eeb6c2b993c5300a8
-      url: "https://github.com/mumu-lhl/dict_reader.git"
+      ref: 11919ea98a615990a9f7e2d20f9e6eb79ff00e98
+      resolved-ref: 11919ea98a615990a9f7e2d20f9e6eb79ff00e98
+      url: "https://github.com/mwftts/dict_reader.git"
     source: git
     version: "1.5.1"
   dio:

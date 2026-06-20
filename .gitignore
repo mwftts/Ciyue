@@ -65,3 +65,9 @@ dist/
 
 # deb
 *.deb
+ciyue.json
+.vs/Ciyue.slnx/v18/DocumentLayout.json
+.vs/Ciyue.slnx/v18/.wsuo
+.vs/slnx.sqlite
+.vs/VSWorkspaceState.json
+.vs/Ciyue.slnx/FileContentIndex/7582a4a8-4ba7-4d69-aef5-ca11a6886266.vsidx
